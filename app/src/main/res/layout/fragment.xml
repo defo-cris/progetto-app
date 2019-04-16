@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="@string/time"
+        android:textAlignment="center"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:text="@string/number"
+        tools:targetApi="o" />
+</FrameLayout>
