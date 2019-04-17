@@ -40,5 +40,6 @@
         android:importantForAutofill="no"
         android:inputType="number"
         android:text="@string/number"
+        android:textAlignment="center"
         tools:targetApi="o" />
 </FrameLayout>

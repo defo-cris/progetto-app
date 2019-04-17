@@ -8,4 +8,6 @@
     <string name="cancel">Cancel</string>
     <string name="number">Number</string>
     <string name="time">Time</string>
+    <string name="Work_out">TextView</string>
+    <string name="Save_exercise">Save</string>
 </resources>
